@@ -27,7 +27,8 @@ function collect_code()
 		for(let checkbox_idx = 0; checkbox_idx < checkboxes.length; checkbox_idx++)
 		{
 			let checkbox = checkboxes[checkbox_idx];
-			result.code[language] += checkbox.parentNode.textContent + " ";
+			if(checkbox.checked)
+				result.code[language] += checkbox.parentNode.textContent + " ";
 		}
 	}
 	return result;
