@@ -9,7 +9,7 @@
 		"48": "icons/extension_icon.png"
 	},
 
-	"content-scripts": [
+	"content_scripts": [
 		{
 			"matches" : ["https://github.com/*"],
 			"js": ["js/script.js"]
