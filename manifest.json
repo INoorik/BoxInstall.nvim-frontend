@@ -14,7 +14,23 @@
 			"matches" : ["https://github.com/*"],
 			"js": ["js/script.js"]
 		}
-	]
+	],
+
+	"browser_action": {
+		"default_icon": {
+			"48": "icons/accept.png"
+		},
+		"default_title": "Copy to nvim config"
+	},
+
+	"permissions": [
+		"activeTab"
+	],
+
+	"background":{
+		"scripts": ["js/background.js"]
+	}
+
 }
 
 
