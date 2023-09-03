@@ -1,6 +1,6 @@
 {
 	"manifest_version": 2,
-	"name": "GithubCopyPast.nvim browser part",
+	"name": "BoxInstall.nvim frontend",
 	"version": "1.0",
 
 	"description": "Extension for easy copy lua lines from github readme to nvim config. Nvim plugin requires",
