@@ -24,7 +24,9 @@
 	},
 
 	"permissions": [
-		"activeTab"
+		"activeTab",
+		"webRequest",
+		"http://localhost/*"
 	],
 
 	"background":{

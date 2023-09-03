@@ -16,3 +16,15 @@ function collect_code()
 	}
 	return result;
 }
+
+function send_obj(obj)
+{
+	let xhr = new XMLHttpRequest();
+	let json = JSON.stringify(obj);
+	xhr.open("POST", "http://localhost:31123");
+	xhr.setRequestHeader("Content-Type", "application/json; charset=utf-8");
+	xhr.send(json);
+	console.log(json);
+}
+
+send_obj(collect_code());
